@@ -1,0 +1,36 @@
+{
+  "id": "nihilism",
+  "name": "Nihilism",
+  "tagline": "There is no inherent meaning, value, or purpose. Now what?",
+  "summary": "Nihilism is the recognition that traditional sources of meaning — gods, essences, cosmic purpose — do not hold up under honest examination. It is less a doctrine than a confrontation: what kind of life can be built once the comforting stories fall away?",
+  "era": "19th–20th century, with ancient roots",
+  "color": "#8E8E96",
+  "themes": ["meaninglessness", "honesty", "void", "deconstruction", "freedom from illusion"],
+  "dimensions": {
+    "meaning": "illusion",
+    "emotion": "expressed",
+    "morality": "subjective",
+    "self": "illusory",
+    "suffering": "indifferent"
+  },
+  "problems_helped": [
+    "existential_dread",
+    "attachment",
+    "identity_crisis"
+  ],
+  "compatible_with": ["absurdism"],
+  "opposes": ["stoicism", "buddhism", "existentialism", "pragmatism"],
+  "influenced_by": [],
+  "philosophers": ["nietzsche", "schopenhauer", "cioran"],
+  "quotes": [
+    { "text": "There are no facts, only interpretations.", "author": "Friedrich Nietzsche" },
+    { "text": "God is dead, and we have killed him.", "author": "Friedrich Nietzsche" },
+    { "text": "It is not worth the bother of killing yourself.", "author": "Emil Cioran" },
+    { "text": "Life has no meaning the moment you lose the illusion.", "author": "Emil Cioran" }
+  ],
+  "modern_echoes": [
+    "doomer and post-irony internet culture",
+    "deconstructive critique",
+    "secular disillusionment narratives"
+  ]
+}

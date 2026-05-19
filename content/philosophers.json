@@ -1,0 +1,290 @@
+[
+  {
+    "id": "marcus_aurelius",
+    "name": "Marcus Aurelius",
+    "years": "121–180 CE",
+    "schools": ["stoicism"],
+    "bio": "Roman emperor and Stoic philosopher whose private journal became the Meditations — never written for publication. He ruled the empire while practicing the discipline he wrote about daily.",
+    "key_ideas": ["dichotomy of control", "virtue as the only good", "memento mori", "the inner citadel", "cosmopolitan brotherhood"]
+  },
+  {
+    "id": "epictetus",
+    "name": "Epictetus",
+    "years": "~50–135 CE",
+    "schools": ["stoicism"],
+    "bio": "Born enslaved, Epictetus became one of the most influential Stoic teachers. His philosophy of radical inner freedom — that no one can take your judgment from you — was forged in lived experience.",
+    "key_ideas": ["what is up to us vs. not up to us", "freedom through acceptance", "impressions and assent", "living according to nature"]
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca",
+    "years": "~4 BCE–65 CE",
+    "schools": ["stoicism"],
+    "bio": "Statesman, playwright, and philosopher who wrote some of the most readable Stoic texts in the form of letters. He navigated the court of Nero while meditating on time, death, and equanimity.",
+    "key_ideas": ["the shortness of life", "time as the one true wealth", "letters as philosophy in action", "the brevity of passion"]
+  },
+  {
+    "id": "zeno_of_citium",
+    "name": "Zeno of Citium",
+    "years": "~334–262 BCE",
+    "schools": ["stoicism"],
+    "bio": "Founder of Stoicism who taught in the Stoa Poikile — the painted porch — in Athens. He arrived in Athens as a shipwreck survivor and shaped philosophy by asking how to live well under any condition.",
+    "key_ideas": ["living according to nature", "the four cardinal virtues", "cosmopolitanism", "indifferents vs. goods"]
+  },
+  {
+    "id": "sartre",
+    "name": "Jean-Paul Sartre",
+    "years": "1905–1980",
+    "schools": ["existentialism"],
+    "bio": "French philosopher, novelist, and playwright who argued that humans are 'condemned to be free' — there is no fixed essence, only the self we make through choices. He refused the Nobel Prize in Literature.",
+    "key_ideas": ["existence precedes essence", "bad faith", "radical freedom and responsibility", "the look of the other", "being-for-itself vs being-in-itself"]
+  },
+  {
+    "id": "kierkegaard",
+    "name": "Søren Kierkegaard",
+    "years": "1813–1855",
+    "schools": ["existentialism", "absurdism"],
+    "bio": "Danish philosopher who wrote under pseudonyms to force readers to find their own truth. He described three stages of life — aesthetic, ethical, and religious — and the 'leap of faith' between them.",
+    "key_ideas": ["the leap of faith", "three stages of existence", "subjective truth", "anxiety as the dizziness of freedom", "repetition"]
+  },
+  {
+    "id": "heidegger",
+    "name": "Martin Heidegger",
+    "years": "1889–1976",
+    "schools": ["existentialism"],
+    "bio": "German philosopher who asked what it means to be — not just to exist. His concept of being-toward-death and authenticity shaped existentialism, phenomenology, and later continental philosophy.",
+    "key_ideas": ["being-toward-death", "authenticity vs. fallenness", "thrownness", "the they-self", "care as the structure of existence"]
+  },
+  {
+    "id": "simone_de_beauvoir",
+    "name": "Simone de Beauvoir",
+    "years": "1908–1986",
+    "schools": ["existentialism"],
+    "bio": "French philosopher and author who applied existentialist freedom to questions of gender and oppression. Her claim that 'one is not born a woman' opened feminist philosophy to existential analysis.",
+    "key_ideas": ["the Other as construct", "situated freedom", "the ambiguity of existence", "women as the second sex", "ethics of ambiguity"]
+  },
+  {
+    "id": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "years": "1844–1900",
+    "schools": ["nihilism"],
+    "bio": "German philosopher who diagnosed the death of God and the resulting crisis of meaning in Western culture. He proposed the Übermensch and will to power as responses — not comfort, but challenge.",
+    "key_ideas": ["will to power", "eternal recurrence", "the Übermensch", "master and slave morality", "perspectivism", "amor fati"]
+  },
+  {
+    "id": "schopenhauer",
+    "name": "Arthur Schopenhauer",
+    "years": "1788–1860",
+    "schools": ["nihilism"],
+    "bio": "German philosopher who argued that beneath appearance lies a blind, striving Will. He found solace in aesthetic experience and asceticism, influencing Nietzsche, Freud, and Wittgenstein.",
+    "key_ideas": ["the world as will and representation", "suffering as default", "aesthetic liberation", "the will-to-live", "compassion as the basis of ethics"]
+  },
+  {
+    "id": "cioran",
+    "name": "Emil Cioran",
+    "years": "1911–1995",
+    "schools": ["nihilism"],
+    "bio": "Romanian-born French aphorist who wrote on despair, futility, and the absurdity of existence with dark elegance. He described his work as 'a series of intimate disasters' but kept writing anyway.",
+    "key_ideas": ["the trouble with being born", "lucid pessimism", "writing as survival", "the consolation of bitterness"]
+  },
+  {
+    "id": "camus",
+    "name": "Albert Camus",
+    "years": "1913–1960",
+    "schools": ["absurdism"],
+    "bio": "French-Algerian author and philosopher who argued against both suicide and false hope in the face of life's silence. His idea of revolt — embracing life without demanding it make sense — made him an icon of defiant joy.",
+    "key_ideas": ["the absurd", "revolt as a response", "Sisyphus as hero", "the Mediterranean ethic of limits", "solidarity over ideology"]
+  },
+  {
+    "id": "buddha",
+    "name": "Siddhartha Gautama",
+    "years": "~563–483 BCE",
+    "schools": ["buddhism"],
+    "bio": "Prince-turned-ascetic who achieved enlightenment under the Bodhi tree after years of searching. His teaching — the Dharma — begins with suffering and leads through attention and release to liberation.",
+    "key_ideas": ["the four noble truths", "the eightfold path", "impermanence", "no-self (anatta)", "interdependence (dependent origination)"]
+  },
+  {
+    "id": "nagarjuna",
+    "name": "Nagarjuna",
+    "years": "~150–250 CE",
+    "schools": ["buddhism"],
+    "bio": "Indian philosopher and founder of the Madhyamaka school, which argued that all phenomena lack inherent existence — emptiness (sunyata) is not void but interdependence seen clearly.",
+    "key_ideas": ["sunyata (emptiness)", "the two truths", "dependent origination as emptiness", "refutation of fixed essence"]
+  },
+  {
+    "id": "dogen",
+    "name": "Dogen",
+    "years": "1200–1253",
+    "schools": ["buddhism"],
+    "bio": "Japanese Zen master who founded Soto Zen and taught that zazen — sitting meditation — is itself enlightenment, not a means to it. His writing in the Shobogenzo remains among the most profound in Zen.",
+    "key_ideas": ["just sitting (shikantaza)", "practice and enlightenment as one", "the mountains and rivers sutra", "being-time"]
+  },
+  {
+    "id": "thich_nhat_hanh",
+    "name": "Thich Nhat Hanh",
+    "years": "1926–2022",
+    "schools": ["buddhism"],
+    "bio": "Vietnamese Zen monk and peace activist who coined 'engaged Buddhism' — the practice of bringing mindfulness into social action. Exiled from Vietnam for 39 years, he continued teaching worldwide.",
+    "key_ideas": ["interbeing", "engaged Buddhism", "mindful breathing as the home", "the present moment as the only moment", "peace as every step"]
+  },
+  {
+    "id": "laozi",
+    "name": "Laozi",
+    "years": "~6th century BCE",
+    "schools": ["taoism"],
+    "bio": "Legendary author of the Tao Te Ching — 81 short chapters on the nature of the Way. Whether a historical figure or a composite, his text on yielding, water, and emptiness has shaped Chinese thought for millennia.",
+    "key_ideas": ["the Tao that can be named is not the eternal Tao", "wu wei (effortless action)", "water as teacher", "the usefulness of emptiness", "returning to simplicity"]
+  },
+  {
+    "id": "zhuangzi",
+    "name": "Zhuangzi",
+    "years": "~369–286 BCE",
+    "schools": ["taoism"],
+    "bio": "Taoist philosopher and master storyteller whose parables — the butterfly dream, the cook and the ox — teach transformation and the relativity of all fixed perspectives with surprising humor.",
+    "key_ideas": ["the butterfly dream", "the perspective of the Tao", "skillful action (zhuanran)", "relativism of values", "spontaneous living"]
+  },
+  {
+    "id": "epicurus",
+    "name": "Epicurus",
+    "years": "341–270 BCE",
+    "schools": ["epicureanism"],
+    "bio": "Greek philosopher who founded a community called The Garden and taught that the good life requires only simple pleasures, friendship, and freedom from fear. Often misunderstood as hedonist, he was an advocate of tranquility.",
+    "key_ideas": ["ataraxia (tranquility)", "aponia (freedom from pain)", "the four-fold remedy", "friendship as the greatest good", "the pleasure of the mind over body"]
+  },
+  {
+    "id": "lucretius",
+    "name": "Lucretius",
+    "years": "~99–55 BCE",
+    "schools": ["epicureanism"],
+    "bio": "Roman poet-philosopher who wrote On the Nature of Things — the most complete surviving account of Epicurean physics and ethics. He argued that atoms and void are all there is, and death is therefore nothing to fear.",
+    "key_ideas": ["atoms and void", "nature without divine interference", "the fear of death as irrational", "pleasure as natural guide", "the plague as test of philosophy"]
+  },
+  {
+    "id": "bentham",
+    "name": "Jeremy Bentham",
+    "years": "1748–1832",
+    "schools": ["utilitarianism"],
+    "bio": "British philosopher who founded modern utilitarianism and designed the panopticon prison. He proposed measuring pleasure and pain mathematically to guide legislation, leaving his body to be preserved as an 'auto-icon.'",
+    "key_ideas": ["the felicific calculus", "greatest happiness principle", "the panopticon", "pleasure and pain as masters", "legislation as applied ethics"]
+  },
+  {
+    "id": "mill",
+    "name": "John Stuart Mill",
+    "years": "1806–1873",
+    "schools": ["utilitarianism"],
+    "bio": "British philosopher who refined utilitarianism by distinguishing quality of pleasures and championed individual liberty. His essay On Liberty remains a foundational text for liberal political thought.",
+    "key_ideas": ["quality vs. quantity of pleasure", "the harm principle", "liberty as the foundation of flourishing", "the tyranny of the majority", "women's equality"]
+  },
+  {
+    "id": "singer",
+    "name": "Peter Singer",
+    "years": "1946–present",
+    "schools": ["utilitarianism"],
+    "bio": "Australian philosopher and leading voice of effective altruism who argues that suffering matters regardless of species. His essay Famine, Affluence, and Morality challenges comfortable assumptions about moral duty.",
+    "key_ideas": ["effective altruism", "equal consideration of interests", "speciesism", "the expanding circle", "obligations to distant others"]
+  },
+  {
+    "id": "william_james",
+    "name": "William James",
+    "years": "1842–1910",
+    "schools": ["pragmatism"],
+    "bio": "American philosopher and psychologist who made pragmatism a philosophy of life. He argued that truth is what works in practice — ideas are instruments for navigating experience, not mirrors of reality.",
+    "key_ideas": ["truth as what works", "the will to believe", "radical empiricism", "stream of consciousness", "varieties of religious experience"]
+  },
+  {
+    "id": "john_dewey",
+    "name": "John Dewey",
+    "years": "1859–1952",
+    "schools": ["pragmatism"],
+    "bio": "American philosopher and education reformer who argued that learning requires doing. He saw democracy as a way of life, not just a system, and philosophy as a tool for social problem-solving.",
+    "key_ideas": ["learning by doing", "experience as method", "democracy as participatory", "inquiry as the model for knowledge", "art as experience"]
+  },
+  {
+    "id": "peirce",
+    "name": "Charles Sanders Peirce",
+    "years": "1839–1914",
+    "schools": ["pragmatism"],
+    "bio": "American logician and founder of pragmatism who defined meaning in terms of practical consequences. Largely unrecognized in his lifetime, his work on signs (semiotics) and scientific inquiry proved foundational.",
+    "key_ideas": ["the pragmatic maxim", "fallibilism", "abductive reasoning", "semiotics", "the fixation of belief"]
+  },
+  {
+    "id": "rorty",
+    "name": "Richard Rorty",
+    "years": "1931–2007",
+    "schools": ["pragmatism"],
+    "bio": "American philosopher who argued that truth is a compliment we pay to beliefs that work socially, not a mirror of reality. He advocated irony, solidarity, and narrative over systematic philosophy.",
+    "key_ideas": ["anti-representationalism", "solidarity over objectivity", "the liberal ironist", "contingency of language", "philosophy as cultural politics"]
+  },
+  {
+    "id": "diogenes",
+    "name": "Diogenes of Sinope",
+    "years": "~412–323 BCE",
+    "schools": ["cynicism"],
+    "bio": "Greek philosopher who lived in a barrel, begged for food, and told Alexander the Great to get out of his sunlight. His radical rejection of convention was a philosophical performance — every act was an argument.",
+    "key_ideas": ["shamelessness as virtue", "self-sufficiency (autarkeia)", "living according to nature", "the cosmopolitan as citizen of the world", "philosophy as practice not theory"]
+  },
+  {
+    "id": "antisthenes",
+    "name": "Antisthenes",
+    "years": "~445–365 BCE",
+    "schools": ["cynicism"],
+    "bio": "Student of Socrates and founder of the Cynic school who argued that virtue alone constitutes happiness and that wealth, pleasure, and reputation are obstacles to the good life.",
+    "key_ideas": ["virtue as sufficient for happiness", "wealth as obstacle", "labor (ponos) as training", "philosophy as way of life"]
+  },
+  {
+    "id": "crates",
+    "name": "Crates of Thebes",
+    "years": "~365–285 BCE",
+    "schools": ["cynicism"],
+    "bio": "Wealthy Theban who gave away his fortune to practice Cynicism and became a beloved street philosopher in Athens. His marriage to Hipparchia — who also became a Cynic — was itself a philosophical statement.",
+    "key_ideas": ["voluntary poverty as freedom", "philosophy as accessible to all", "marriage as partnership of equals", "the happy life without possessions"]
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "years": "384–322 BCE",
+    "schools": ["virtue_ethics"],
+    "bio": "Student of Plato and tutor of Alexander the Great, Aristotle built a comprehensive system spanning logic, biology, politics, and ethics. His Nicomachean Ethics remains the cornerstone of virtue-based moral philosophy.",
+    "key_ideas": ["eudaimonia (flourishing)", "the golden mean", "virtue as habit", "the social nature of humans", "phronesis (practical wisdom)"]
+  },
+  {
+    "id": "thomas_aquinas",
+    "name": "Thomas Aquinas",
+    "years": "1225–1274",
+    "schools": ["virtue_ethics"],
+    "bio": "Dominican friar who synthesized Aristotle's ethics with Christian theology. His Summa Theologica shaped Catholic moral philosophy, and his account of the virtues remains influential in secular ethics today.",
+    "key_ideas": ["natural law", "the four cardinal virtues", "the theological virtues", "faith and reason as compatible", "the common good"]
+  },
+  {
+    "id": "macintyre",
+    "name": "Alasdair MacIntyre",
+    "years": "1929–present",
+    "schools": ["virtue_ethics"],
+    "bio": "Scottish-American philosopher who revived virtue ethics in After Virtue, arguing that modern moral philosophy lost coherence when it abandoned the Aristotelian framework of practices and communities.",
+    "key_ideas": ["practices as bearers of virtue", "the narrative self", "tradition as rational", "the virtues as socially embedded", "after virtue: the critique of modernity"]
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius",
+    "years": "551–479 BCE",
+    "schools": ["confucianism"],
+    "bio": "Chinese teacher and philosopher whose sayings — collected in the Analects by disciples after his death — shaped East Asian civilization for over two millennia. He saw ritual and relationships as the path to virtue.",
+    "key_ideas": ["ren (benevolence/humaneness)", "li (ritual propriety)", "junzi (the exemplary person)", "the rectification of names", "self-cultivation through relationships"]
+  },
+  {
+    "id": "mencius",
+    "name": "Mencius",
+    "years": "~372–289 BCE",
+    "schools": ["confucianism"],
+    "bio": "Confucian philosopher who argued that human nature is inherently good — we have innate moral sprouts that need cultivation, not correction. His optimistic ethics influenced Neo-Confucianism and East Asian education.",
+    "key_ideas": ["innate human goodness", "four moral sprouts", "extension of compassion", "the kingly way vs. hegemony", "nourishing the flood-like qi"]
+  },
+  {
+    "id": "zhu_xi",
+    "name": "Zhu Xi",
+    "years": "1130–1200",
+    "schools": ["confucianism"],
+    "bio": "Neo-Confucian philosopher who systematized Confucian thought into a comprehensive metaphysics. His commentaries on the Four Books became the official curriculum for Chinese imperial exams for 600 years.",
+    "key_ideas": ["li (principle) and qi (vital force)", "the investigation of things", "the great ultimate", "self-cultivation as the path to sagehood", "moral seriousness as daily practice"]
+  }
+]

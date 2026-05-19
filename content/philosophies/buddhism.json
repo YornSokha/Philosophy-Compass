@@ -1,0 +1,40 @@
+{
+  "id": "buddhism",
+  "name": "Buddhism",
+  "tagline": "Suffering arises from clinging. Liberation is letting go.",
+  "summary": "Buddhism diagnoses suffering as the product of craving and the illusion of a fixed self. Its path is one of attention, ethical conduct, and the steady investigation of mind until grasping releases on its own.",
+  "era": "~500 BCE – present",
+  "color": "#E8964A",
+  "themes": ["impermanence", "non-attachment", "mindfulness", "compassion", "no-self"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "observed",
+    "morality": "virtue",
+    "self": "illusory",
+    "suffering": "inherent"
+  },
+  "problems_helped": [
+    "attachment",
+    "anxiety",
+    "emotional_suffering",
+    "overthinking",
+    "fear_of_death",
+    "identity_crisis",
+    "loneliness"
+  ],
+  "compatible_with": ["stoicism", "taoism", "cynicism", "virtue_ethics", "confucianism"],
+  "opposes": ["utilitarianism", "nihilism"],
+  "influenced_by": [],
+  "philosophers": ["buddha", "nagarjuna", "dogen", "thich_nhat_hanh"],
+  "quotes": [
+    { "text": "All conditioned things are impermanent.", "author": "The Buddha" },
+    { "text": "Peace comes from within. Do not seek it without.", "author": "The Buddha" },
+    { "text": "Hatred does not cease by hatred, but by love alone.", "author": "The Buddha" },
+    { "text": "The present moment is the only moment available to us.", "author": "Thich Nhat Hanh" }
+  ],
+  "modern_echoes": [
+    "mindfulness and MBSR programs",
+    "Acceptance and Commitment Therapy",
+    "secular meditation apps"
+  ]
+}

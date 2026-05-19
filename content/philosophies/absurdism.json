@@ -1,0 +1,36 @@
+{
+  "id": "absurdism",
+  "name": "Absurdism",
+  "tagline": "The universe is silent. Live fully anyway — that is the revolt.",
+  "summary": "Absurdism names the gap between our hunger for meaning and a universe that offers none. Camus refused both suicide and false hope; the third option is to keep living, lucidly, in defiance of the silence.",
+  "era": "20th century",
+  "color": "#E25D3E",
+  "themes": ["revolt", "lucidity", "absurd", "defiance", "joy without illusion"],
+  "dimensions": {
+    "meaning": "indifferent",
+    "emotion": "expressed",
+    "morality": "subjective",
+    "self": "constructed",
+    "suffering": "indifferent"
+  },
+  "problems_helped": [
+    "lack_of_meaning",
+    "existential_dread",
+    "burnout"
+  ],
+  "compatible_with": ["existentialism", "nihilism"],
+  "opposes": [],
+  "influenced_by": ["nihilism", "existentialism"],
+  "philosophers": ["camus", "kierkegaard"],
+  "quotes": [
+    { "text": "One must imagine Sisyphus happy.", "author": "Albert Camus" },
+    { "text": "In the depth of winter, I found an invincible summer.", "author": "Albert Camus" },
+    { "text": "The absurd is the essential concept and the first truth.", "author": "Albert Camus" },
+    { "text": "There is no sun without shadow. Know the night.", "author": "Albert Camus" }
+  ],
+  "modern_echoes": [
+    "post-pandemic 'do it anyway' ethos",
+    "creative practice as defiance",
+    "stand-up comedy and absurdist meme culture"
+  ]
+}

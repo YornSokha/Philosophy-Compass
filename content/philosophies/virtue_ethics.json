@@ -1,0 +1,37 @@
+{
+  "id": "virtue_ethics",
+  "name": "Virtue Ethics",
+  "tagline": "The good life is built through character, not rules or outcomes.",
+  "summary": "Virtue ethics asks not 'what should I do?' but 'what kind of person should I become?' It teaches that flourishing — eudaimonia — comes from cultivating stable virtues through practice, guided by practical wisdom and embedded in community.",
+  "era": "Ancient Greek, ~350 BCE – ongoing",
+  "color": "#9B7F5E",
+  "themes": ["character", "flourishing", "habit", "golden mean", "practical wisdom"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "expressed",
+    "morality": "virtue",
+    "self": "fixed",
+    "suffering": "meaningful"
+  },
+  "problems_helped": [
+    "lack_of_meaning",
+    "lack_of_discipline",
+    "identity_crisis",
+    "emotional_suffering"
+  ],
+  "compatible_with": ["stoicism", "buddhism", "confucianism"],
+  "opposes": ["utilitarianism"],
+  "influenced_by": ["cynicism"],
+  "philosophers": ["aristotle", "thomas_aquinas", "macintyre"],
+  "quotes": [
+    { "text": "We are what we repeatedly do.", "author": "Aristotle" },
+    { "text": "Happiness is activity of the soul in accordance with virtue.", "author": "Aristotle" },
+    { "text": "One swallow does not make a spring.", "author": "Aristotle" },
+    { "text": "We become just by doing just acts.", "author": "Aristotle" }
+  ],
+  "modern_echoes": [
+    "character-based leadership",
+    "positive psychology and eudaimonic wellbeing",
+    "medical ethics and virtue-based care"
+  ]
+}

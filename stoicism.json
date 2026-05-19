@@ -1,0 +1,40 @@
+{
+  "id": "stoicism",
+  "name": "Stoicism",
+  "tagline": "Virtue is the only good. Master your mind, not the world.",
+  "summary": "A practical philosophy of resilience, virtue, and rational acceptance. The Stoics taught that we suffer not from events but from our judgments about them, and that a good life is built from disciplined character, not from controlling outcomes.",
+  "era": "Hellenistic / Roman, ~300 BCE – 180 CE",
+  "color": "#7894B0",
+  "themes": ["discipline", "resilience", "virtue", "acceptance", "rationality"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "controlled",
+    "morality": "virtue",
+    "self": "fixed",
+    "suffering": "meaningful"
+  },
+  "problems_helped": [
+    "anxiety",
+    "fear_of_death",
+    "overthinking",
+    "lack_of_discipline",
+    "emotional_suffering",
+    "attachment",
+    "loneliness"
+  ],
+  "compatible_with": ["buddhism", "cynicism", "taoism"],
+  "opposes": ["nihilism", "epicureanism", "utilitarianism"],
+  "influenced_by": ["cynicism"],
+  "philosophers": ["marcus_aurelius", "epictetus", "seneca", "zeno_of_citium"],
+  "quotes": [
+    { "text": "You have power over your mind — not outside events.", "author": "Marcus Aurelius" },
+    { "text": "We suffer more in imagination than in reality.", "author": "Seneca" },
+    { "text": "It is not what happens, but how you react that matters.", "author": "Epictetus" },
+    { "text": "Waste no more time arguing what a good man should be. Be one.", "author": "Marcus Aurelius" }
+  ],
+  "modern_echoes": [
+    "Cognitive Behavioral Therapy",
+    "resilience training",
+    "discipline culture (Ryan Holiday, Jocko Willink)"
+  ]
+}

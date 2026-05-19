@@ -1,0 +1,36 @@
+{
+  "id": "cynicism",
+  "name": "Cynicism",
+  "tagline": "Strip life to its essentials. The rest is borrowed costume.",
+  "summary": "Ancient Cynicism — not the modern attitude of distrust — was a radical commitment to living according to nature and against convention. Its practitioners owned nothing, told the truth bluntly, and treated social status as theatre to be ignored.",
+  "era": "Classical Greek, ~400 BCE",
+  "color": "#C16B4E",
+  "themes": ["simplicity", "self-sufficiency", "honesty", "anti-convention", "asceticism"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "controlled",
+    "morality": "virtue",
+    "self": "fixed",
+    "suffering": "meaningful"
+  },
+  "problems_helped": [
+    "social_alienation",
+    "attachment",
+    "lack_of_discipline"
+  ],
+  "compatible_with": ["stoicism", "buddhism", "taoism"],
+  "opposes": ["epicureanism"],
+  "influenced_by": [],
+  "philosophers": ["diogenes", "antisthenes", "crates"],
+  "quotes": [
+    { "text": "I am looking for an honest man.", "author": "Diogenes" },
+    { "text": "It is the privilege of the gods to want nothing.", "author": "Diogenes" },
+    { "text": "He has the most who is most content with the least.", "author": "Diogenes" },
+    { "text": "Of what use is a philosopher who never offends?", "author": "Diogenes" }
+  ],
+  "modern_echoes": [
+    "minimalism and voluntary simplicity",
+    "radical honesty movements",
+    "punk and counter-cultural ethics"
+  ]
+}

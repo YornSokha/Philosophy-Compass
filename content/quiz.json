@@ -1,0 +1,347 @@
+[
+  {
+    "id": "q_suffering_01",
+    "axis": "suffering",
+    "prompt": "When you suffer, what is most true?",
+    "options": [
+      {
+        "label": "It is teaching me something I need to learn.",
+        "weights": { "stoicism": 0.8, "buddhism": 0.5, "existentialism": 0.5 }
+      },
+      {
+        "label": "It is a problem to reduce and, where possible, avoid.",
+        "weights": { "epicureanism": 0.9, "utilitarianism": 0.7, "pragmatism": 0.5 }
+      },
+      {
+        "label": "It is the nature of clinging to impermanent things.",
+        "weights": { "buddhism": 0.9, "taoism": 0.4 }
+      },
+      {
+        "label": "It just is. Meaning is what I make of it.",
+        "weights": { "absurdism": 0.8, "existentialism": 0.5, "nihilism": 0.5 }
+      }
+    ]
+  },
+  {
+    "id": "q_suffering_02",
+    "axis": "suffering",
+    "prompt": "Is suffering meaningful?",
+    "options": [
+      {
+        "label": "Yes — it reveals what genuinely matters.",
+        "weights": { "stoicism": 0.7, "existentialism": 0.6 }
+      },
+      {
+        "label": "No, but its causes can be understood and reduced.",
+        "weights": { "epicureanism": 0.7, "utilitarianism": 0.7, "pragmatism": 0.4 }
+      },
+      {
+        "label": "Yes — it is the door to liberation.",
+        "weights": { "buddhism": 0.9 }
+      },
+      {
+        "label": "It is neither meaningful nor escapable. Live anyway.",
+        "weights": { "absurdism": 0.8, "nihilism": 0.5, "cynicism": 0.3 }
+      }
+    ]
+  },
+  {
+    "id": "q_suffering_03",
+    "axis": "suffering",
+    "prompt": "When something bad happens, your first move is to…",
+    "options": [
+      {
+        "label": "Examine what is and is not in my control.",
+        "weights": { "stoicism": 0.9, "cynicism": 0.3 }
+      },
+      {
+        "label": "Notice the feeling without grasping at it.",
+        "weights": { "buddhism": 0.8, "taoism": 0.6 }
+      },
+      {
+        "label": "Ask what it means for the person I want to be.",
+        "weights": { "existentialism": 0.8 }
+      },
+      {
+        "label": "Find what is still good and enjoy it.",
+        "weights": { "epicureanism": 0.7, "absurdism": 0.4 }
+      }
+    ]
+  },
+  {
+    "id": "q_meaning_01",
+    "axis": "meaning",
+    "prompt": "Where does meaning come from?",
+    "options": [
+      {
+        "label": "We create it through our choices and commitments.",
+        "weights": { "existentialism": 0.9, "absurdism": 0.5, "pragmatism": 0.5 }
+      },
+      {
+        "label": "It exists in nature's order — we align with it.",
+        "weights": { "stoicism": 0.7, "taoism": 0.8, "confucianism": 0.6, "virtue_ethics": 0.5 }
+      },
+      {
+        "label": "There is no inherent meaning, and that is fine.",
+        "weights": { "nihilism": 0.9, "absurdism": 0.6 }
+      },
+      {
+        "label": "From useful action and shared human experience.",
+        "weights": { "pragmatism": 0.8, "utilitarianism": 0.6 }
+      }
+    ]
+  },
+  {
+    "id": "q_meaning_02",
+    "axis": "meaning",
+    "prompt": "Life has…",
+    "options": [
+      {
+        "label": "A purpose I must discover.",
+        "weights": { "stoicism": 0.5, "taoism": 0.5, "buddhism": 0.3 }
+      },
+      {
+        "label": "Whatever purpose I give it.",
+        "weights": { "existentialism": 0.9, "pragmatism": 0.4 }
+      },
+      {
+        "label": "No purpose — and the honesty of that is freeing.",
+        "weights": { "nihilism": 0.8, "absurdism": 0.6 }
+      },
+      {
+        "label": "Purpose found in reducing suffering for all beings.",
+        "weights": { "buddhism": 0.7, "utilitarianism": 0.7 }
+      }
+    ]
+  },
+  {
+    "id": "q_meaning_03",
+    "axis": "meaning",
+    "prompt": "The universe is fundamentally…",
+    "options": [
+      {
+        "label": "Rational and ordered.",
+        "weights": { "stoicism": 0.8 }
+      },
+      {
+        "label": "Indifferent — and confronting that is our task.",
+        "weights": { "absurdism": 0.9, "existentialism": 0.6, "nihilism": 0.6 }
+      },
+      {
+        "label": "Flowing — neither for nor against us.",
+        "weights": { "taoism": 0.9, "buddhism": 0.5 }
+      },
+      {
+        "label": "Whatever we can pragmatically engage with.",
+        "weights": { "pragmatism": 0.8, "utilitarianism": 0.5 }
+      }
+    ]
+  },
+  {
+    "id": "q_emotion_01",
+    "axis": "emotion",
+    "prompt": "Emotions should be…",
+    "options": [
+      {
+        "label": "Disciplined by reason.",
+        "weights": { "stoicism": 0.9, "cynicism": 0.5 }
+      },
+      {
+        "label": "Observed without attachment.",
+        "weights": { "buddhism": 0.9, "taoism": 0.6 }
+      },
+      {
+        "label": "Expressed honestly — they are part of being alive.",
+        "weights": { "existentialism": 0.7, "absurdism": 0.3 }
+      },
+      {
+        "label": "Used as data for choosing better actions.",
+        "weights": { "pragmatism": 0.7, "utilitarianism": 0.5 }
+      }
+    ]
+  },
+  {
+    "id": "q_emotion_02",
+    "axis": "emotion",
+    "prompt": "When anger rises, the wise person…",
+    "options": [
+      {
+        "label": "Pauses, then reframes.",
+        "weights": { "stoicism": 0.9 }
+      },
+      {
+        "label": "Watches it pass like weather.",
+        "weights": { "buddhism": 0.8, "taoism": 0.6 }
+      },
+      {
+        "label": "Owns it — and chooses what to do with it.",
+        "weights": { "existentialism": 0.7, "pragmatism": 0.4 }
+      },
+      {
+        "label": "Laughs at how seriously we take ourselves.",
+        "weights": { "cynicism": 0.8, "absurdism": 0.5 }
+      }
+    ]
+  },
+  {
+    "id": "q_emotion_03",
+    "axis": "emotion",
+    "prompt": "Pleasure is…",
+    "options": [
+      {
+        "label": "Fine in moderation, but not the point.",
+        "weights": { "stoicism": 0.7, "buddhism": 0.4 }
+      },
+      {
+        "label": "The natural goal of life, taken wisely.",
+        "weights": { "epicureanism": 0.9 }
+      },
+      {
+        "label": "Worth pursuing when it benefits the most people.",
+        "weights": { "utilitarianism": 0.8 }
+      },
+      {
+        "label": "A distraction from seeing clearly.",
+        "weights": { "buddhism": 0.6, "cynicism": 0.8 }
+      }
+    ]
+  },
+  {
+    "id": "q_morality_01",
+    "axis": "morality",
+    "prompt": "Right action is…",
+    "options": [
+      {
+        "label": "Acting from virtue, whatever the cost.",
+        "weights": { "stoicism": 0.8, "cynicism": 0.6, "virtue_ethics": 0.9, "confucianism": 0.6 }
+      },
+      {
+        "label": "Whatever produces the most well-being overall.",
+        "weights": { "utilitarianism": 0.9 }
+      },
+      {
+        "label": "Whatever actually works for human flourishing.",
+        "weights": { "pragmatism": 0.8 }
+      },
+      {
+        "label": "Authentic to who I am choosing to become.",
+        "weights": { "existentialism": 0.8, "absurdism": 0.3 }
+      }
+    ]
+  },
+  {
+    "id": "q_morality_02",
+    "axis": "morality",
+    "prompt": "Morality is best understood as…",
+    "options": [
+      {
+        "label": "Objective — there are real virtues to live by.",
+        "weights": { "stoicism": 0.7, "buddhism": 0.4, "virtue_ethics": 0.7, "confucianism": 0.8 }
+      },
+      {
+        "label": "Constructed by each person, taking full responsibility.",
+        "weights": { "existentialism": 0.8, "nihilism": 0.5 }
+      },
+      {
+        "label": "Calculable from consequences.",
+        "weights": { "utilitarianism": 0.9 }
+      },
+      {
+        "label": "Best judged by what works in practice.",
+        "weights": { "pragmatism": 0.8 }
+      }
+    ]
+  },
+  {
+    "id": "q_morality_03",
+    "axis": "morality",
+    "prompt": "Social conventions are…",
+    "options": [
+      {
+        "label": "Often useful, sometimes wise.",
+        "weights": { "pragmatism": 0.6, "stoicism": 0.4 }
+      },
+      {
+        "label": "Mostly arbitrary — better to live by nature.",
+        "weights": { "cynicism": 0.9, "taoism": 0.5 }
+      },
+      {
+        "label": "A starting point we may need to transcend.",
+        "weights": { "buddhism": 0.5, "existentialism": 0.6 }
+      },
+      {
+        "label": "Tools — judged by outcomes.",
+        "weights": { "utilitarianism": 0.7, "pragmatism": 0.4 }
+      }
+    ]
+  },
+  {
+    "id": "q_self_01",
+    "axis": "self",
+    "prompt": "The self is…",
+    "options": [
+      {
+        "label": "A character shaped through daily discipline.",
+        "weights": { "stoicism": 0.8, "cynicism": 0.5, "virtue_ethics": 0.8, "confucianism": 0.7 }
+      },
+      {
+        "label": "A project I author, moment to moment.",
+        "weights": { "existentialism": 0.9 }
+      },
+      {
+        "label": "A useful fiction — no fixed 'I' inside.",
+        "weights": { "buddhism": 0.9, "taoism": 0.5, "nihilism": 0.4 }
+      },
+      {
+        "label": "A bundle of habits responding to what works.",
+        "weights": { "pragmatism": 0.7 }
+      }
+    ]
+  },
+  {
+    "id": "q_self_02",
+    "axis": "self",
+    "prompt": "Who you are is…",
+    "options": [
+      {
+        "label": "What you do, repeatedly.",
+        "weights": { "stoicism": 0.6, "pragmatism": 0.6, "cynicism": 0.4, "virtue_ethics": 0.7, "confucianism": 0.5 }
+      },
+      {
+        "label": "What you choose, with full responsibility.",
+        "weights": { "existentialism": 0.9 }
+      },
+      {
+        "label": "Whatever arises and passes.",
+        "weights": { "buddhism": 0.7, "taoism": 0.6 }
+      },
+      {
+        "label": "A story worth holding loosely.",
+        "weights": { "nihilism": 0.5, "absurdism": 0.5, "buddhism": 0.3 }
+      }
+    ]
+  },
+  {
+    "id": "q_self_03",
+    "axis": "self",
+    "prompt": "The fact that you will die…",
+    "options": [
+      {
+        "label": "Sharpens what matters; live virtuously now.",
+        "weights": { "stoicism": 0.8 }
+      },
+      {
+        "label": "Is precisely what makes choice meaningful.",
+        "weights": { "existentialism": 0.9, "absurdism": 0.5 }
+      },
+      {
+        "label": "Frees you — where death is, you are not.",
+        "weights": { "epicureanism": 0.9 }
+      },
+      {
+        "label": "Reveals the impermanence of all things.",
+        "weights": { "buddhism": 0.8, "taoism": 0.5 }
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "anxiety",
+    "name": "Anxiety",
+    "description": "Persistent worry about the future or about things outside your control.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "Divide the world into what you control and what you do not. Worry only about the first." },
+      { "philosophy_id": "buddhism", "angle": "Anxiety is the mind grasping at futures that do not yet exist. Return to the breath." },
+      { "philosophy_id": "epicureanism", "angle": "Most of what we fear will never happen. Tranquility is built from modest, present pleasures." },
+      { "philosophy_id": "utilitarianism", "angle": "Map the actual probabilities. Most anxious scenarios never materialize; the math often soothes." }
+    ]
+  },
+  {
+    "id": "lack_of_meaning",
+    "name": "Lack of meaning",
+    "description": "A pervasive sense that nothing you do really matters.",
+    "responses": [
+      { "philosophy_id": "existentialism", "angle": "Meaning is not found, it is made. You are condemned to author it." },
+      { "philosophy_id": "absurdism", "angle": "Stop demanding meaning from the universe; revolt by living fully anyway." },
+      { "philosophy_id": "pragmatism", "angle": "Meaning shows up in committed action, not in argument about meaning." },
+      { "philosophy_id": "utilitarianism", "angle": "Purpose is plentiful where suffering exists to be reduced." }
+    ]
+  },
+  {
+    "id": "fear_of_death",
+    "name": "Fear of death",
+    "description": "Dread about your own mortality, or about losing those you love.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "Death is a natural process, not a misfortune. Remember it daily to live better." },
+      { "philosophy_id": "epicureanism", "angle": "Where death is, you are not. Suffering needs a subject." },
+      { "philosophy_id": "buddhism", "angle": "The self that fears death is itself the illusion you can see through." },
+      { "philosophy_id": "existentialism", "angle": "Mortality is what makes any single choice weigh something." }
+    ]
+  },
+  {
+    "id": "loneliness",
+    "name": "Loneliness",
+    "description": "Feeling unseen, disconnected, or solitary even among others.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "You belong to a cosmopolis of reasoning beings. Solitude is not loneliness if you are good company to yourself." },
+      { "philosophy_id": "epicureanism", "angle": "Friendship is the greatest of life's sustainable pleasures. Cultivate a small garden of it." },
+      { "philosophy_id": "buddhism", "angle": "Loneliness softens when you see how interconnected all things already are." },
+      { "philosophy_id": "confucianism", "angle": "The self is relational. Loneliness is a signal to deepen the bonds you already have." },
+      { "philosophy_id": "existentialism", "angle": "Radical solitude is real, but authentic connection — chosen freely — is the answer." }
+    ]
+  },
+  {
+    "id": "burnout",
+    "name": "Burnout",
+    "description": "Exhaustion from prolonged effort, often without proportional reward.",
+    "responses": [
+      { "philosophy_id": "taoism", "angle": "Wu wei — effortless action. You are pushing where you should be flowing." },
+      { "philosophy_id": "absurdism", "angle": "If the boulder rolls back down, choose how you walk back to it. Sisyphus can be happy." },
+      { "philosophy_id": "epicureanism", "angle": "The wealth nature asks for is small. Recalibrate what you are chasing." },
+      { "philosophy_id": "stoicism", "angle": "Ask which of your obligations are truly yours. Many burdens are borrowed, not given." },
+      { "philosophy_id": "buddhism", "angle": "Burnout is attachment to outcomes. Keep the work; release the harvest." },
+      { "philosophy_id": "utilitarianism", "angle": "Sustainable effort produces more good over time. Rest is not retreat — it is strategy." }
+    ]
+  },
+  {
+    "id": "identity_crisis",
+    "name": "Identity crisis",
+    "description": "Uncertainty about who you are, what you value, or where you belong.",
+    "responses": [
+      { "philosophy_id": "existentialism", "angle": "There is no essence underneath. You build identity through choices you stand by." },
+      { "philosophy_id": "buddhism", "angle": "There is no fixed self to be in crisis. Investigate the assumption itself." },
+      { "philosophy_id": "pragmatism", "angle": "Identity is what your actions add up to. Try things; iterate." }
+    ]
+  },
+  {
+    "id": "attachment",
+    "name": "Attachment",
+    "description": "Suffering caused by clinging to people, outcomes, or self-images.",
+    "responses": [
+      { "philosophy_id": "buddhism", "angle": "Attachment is the root of suffering. Loving without grasping is possible." },
+      { "philosophy_id": "stoicism", "angle": "Treat what you love as borrowed, not owned. Gratitude replaces clinging." },
+      { "philosophy_id": "cynicism", "angle": "Possessions own you. Live light; need almost nothing." }
+    ]
+  },
+  {
+    "id": "social_alienation",
+    "name": "Social alienation",
+    "description": "Feeling out of step with the values or rhythms of those around you.",
+    "responses": [
+      { "philosophy_id": "cynicism", "angle": "The crowd's values are often unexamined. Standing apart can be a sign of clear sight." },
+      { "philosophy_id": "taoism", "angle": "Return to nature, to simplicity. Some friction is just the world being noisy." },
+      { "philosophy_id": "existentialism", "angle": "Alienation is honest. The bad faith would be pretending to fit." }
+    ]
+  },
+  {
+    "id": "overthinking",
+    "name": "Overthinking",
+    "description": "Looping mental analysis that crowds out action and rest.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "Ask only: is this in my control, and is action required? If not, set it down." },
+      { "philosophy_id": "buddhism", "angle": "Thought is one of the senses. You do not have to follow every signal." },
+      { "philosophy_id": "pragmatism", "angle": "Truth shows up in trying. Stop deliberating; run the experiment." }
+    ]
+  },
+  {
+    "id": "lack_of_discipline",
+    "name": "Lack of discipline",
+    "description": "Knowing what would be good for you and not doing it.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "Virtue is a daily practice, not a temperament. Begin again, smaller, today." },
+      { "philosophy_id": "cynicism", "angle": "Strip life back. Comfort is often what is rotting your resolve." },
+      { "philosophy_id": "virtue_ethics", "angle": "Discipline is a character trait built through repeated acts, not willpower alone." },
+      { "philosophy_id": "existentialism", "angle": "Bad faith is pretending you have no choice. Own what you do and don't do." },
+      { "philosophy_id": "confucianism", "angle": "Self-cultivation begins with small daily rites. Ritual shapes character before the will does." }
+    ]
+  },
+  {
+    "id": "emotional_suffering",
+    "name": "Emotional suffering",
+    "description": "Sadness, grief, shame, or other intense feeling that is hard to bear.",
+    "responses": [
+      { "philosophy_id": "stoicism", "angle": "The pain is real; the story you tell about it is optional. Examine the story." },
+      { "philosophy_id": "buddhism", "angle": "Sit with it as you would with weather. It is already changing." },
+      { "philosophy_id": "existentialism", "angle": "Feeling is not weakness. It is part of taking your existence seriously." }
+    ]
+  },
+  {
+    "id": "existential_dread",
+    "name": "Existential dread",
+    "description": "A confrontation with meaninglessness, infinity, or the indifference of the universe.",
+    "responses": [
+      { "philosophy_id": "absurdism", "angle": "Dread comes from demanding what the universe cannot give. Revolt by living." },
+      { "philosophy_id": "existentialism", "angle": "Dread is the first taste of freedom. Stay with it; then choose." },
+      { "philosophy_id": "nihilism", "angle": "Look directly at the void. It is more bearable than the lie of obligation." },
+      { "philosophy_id": "taoism", "angle": "Let go of the demand for permanence. The Tao is already carrying you." }
+    ]
+  }
+]

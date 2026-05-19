@@ -1,0 +1,37 @@
+{
+  "id": "confucianism",
+  "name": "Confucianism",
+  "tagline": "Become who you are through relationships, ritual, and self-cultivation.",
+  "summary": "Confucianism teaches that human beings are fundamentally relational — we become ourselves through the roles we inhabit and the care we give. Self-cultivation, ritual propriety, and the pursuit of benevolence transform both the individual and society.",
+  "era": "Ancient Chinese, ~500 BCE – present",
+  "color": "#A86B3C",
+  "themes": ["self-cultivation", "relationships", "ritual", "social harmony", "benevolence"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "controlled",
+    "morality": "objective",
+    "self": "constructed",
+    "suffering": "meaningful"
+  },
+  "problems_helped": [
+    "loneliness",
+    "identity_crisis",
+    "social_alienation",
+    "lack_of_discipline"
+  ],
+  "compatible_with": ["stoicism", "taoism", "buddhism", "virtue_ethics"],
+  "opposes": ["nihilism"],
+  "influenced_by": [],
+  "philosophers": ["confucius", "mencius", "zhu_xi"],
+  "quotes": [
+    { "text": "To know what you know and know what you don't — that is knowledge.", "author": "Confucius" },
+    { "text": "The man who moves mountains begins by carrying away small stones.", "author": "Confucius" },
+    { "text": "He who learns but does not think is lost.", "author": "Confucius" },
+    { "text": "The beginning of wisdom is to call things by their proper names.", "author": "Confucius" }
+  ],
+  "modern_echoes": [
+    "East Asian education and family culture",
+    "relational and communitarian leadership models",
+    "communitarian political philosophy"
+  ]
+}

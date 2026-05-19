@@ -1,0 +1,37 @@
+{
+  "id": "epicureanism",
+  "name": "Epicureanism",
+  "tagline": "The good life is tranquil pleasure, modest and shared.",
+  "summary": "Often caricatured as hedonism, Epicureanism is in fact a careful art of contentment: avoid pain, cultivate friendship, take simple pleasures, and free yourself from the fear of gods and death. The goal is ataraxia — untroubled calm.",
+  "era": "Hellenistic, ~300 BCE",
+  "color": "#E8BC58",
+  "themes": ["pleasure", "tranquility", "friendship", "moderation", "freedom from fear"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "enjoyed",
+    "morality": "utility",
+    "self": "fixed",
+    "suffering": "avoidable"
+  },
+  "problems_helped": [
+    "fear_of_death",
+    "anxiety",
+    "burnout",
+    "loneliness"
+  ],
+  "compatible_with": ["pragmatism"],
+  "opposes": ["stoicism", "cynicism"],
+  "influenced_by": [],
+  "philosophers": ["epicurus", "lucretius"],
+  "quotes": [
+    { "text": "Not what we have, but what we enjoy, is our abundance.", "author": "Epicurus" },
+    { "text": "Death is nothing to us.", "author": "Epicurus" },
+    { "text": "The wealth required by nature is easy to procure.", "author": "Epicurus" },
+    { "text": "He who is not satisfied with a little is satisfied with nothing.", "author": "Epicurus" }
+  ],
+  "modern_echoes": [
+    "secular humanism and quiet hedonism",
+    "the slow-pleasure and 'soft life' aesthetic",
+    "evidence-based wellbeing research"
+  ]
+}

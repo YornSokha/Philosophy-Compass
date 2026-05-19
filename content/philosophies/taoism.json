@@ -1,0 +1,37 @@
+{
+  "id": "taoism",
+  "name": "Taoism",
+  "tagline": "Stop forcing. Move with the grain of things.",
+  "summary": "Taoism teaches that the world has its own flow — the Tao — and that wisdom is learning to act with it, not against it. Effortless action, simplicity, and quiet attention are the means; harmony is the result.",
+  "era": "~400 BCE – present (Classical Chinese)",
+  "color": "#7AAD8A",
+  "themes": ["flow", "naturalness", "simplicity", "wu wei", "harmony"],
+  "dimensions": {
+    "meaning": "discovered",
+    "emotion": "observed",
+    "morality": "virtue",
+    "self": "fluid",
+    "suffering": "inherent"
+  },
+  "problems_helped": [
+    "burnout",
+    "overthinking",
+    "social_alienation",
+    "existential_dread"
+  ],
+  "compatible_with": ["buddhism", "stoicism", "cynicism", "confucianism"],
+  "opposes": [],
+  "influenced_by": [],
+  "philosophers": ["laozi", "zhuangzi"],
+  "quotes": [
+    { "text": "The journey of a thousand miles begins with a single step.", "author": "Laozi" },
+    { "text": "When I let go of what I am, I become what I might be.", "author": "Laozi" },
+    { "text": "Nature does not hurry, yet everything is accomplished.", "author": "Laozi" },
+    { "text": "Flow with whatever may happen and let your mind be free.", "author": "Zhuangzi" }
+  ],
+  "modern_echoes": [
+    "flow-state research (Csikszentmihalyi)",
+    "minimalism and slow-living movements",
+    "ecological and permaculture ethics"
+  ]
+}

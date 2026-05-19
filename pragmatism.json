@@ -1,0 +1,36 @@
+{
+  "id": "pragmatism",
+  "name": "Pragmatism",
+  "tagline": "Truth is what works. Test ideas by the difference they make.",
+  "summary": "Pragmatism is the American philosophical answer to abstract metaphysics: judge beliefs by their consequences in lived experience. Ideas are tools, truths are provisional, and inquiry is something you do — not a destination.",
+  "era": "Late 19th century – present (American)",
+  "color": "#B58C58",
+  "themes": ["experimentation", "consequences", "fallibilism", "inquiry", "practice"],
+  "dimensions": {
+    "meaning": "created",
+    "emotion": "controlled",
+    "morality": "utility",
+    "self": "constructed",
+    "suffering": "avoidable"
+  },
+  "problems_helped": [
+    "overthinking",
+    "lack_of_meaning",
+    "identity_crisis"
+  ],
+  "compatible_with": ["existentialism", "utilitarianism", "epicureanism"],
+  "opposes": ["nihilism"],
+  "influenced_by": [],
+  "philosophers": ["william_james", "john_dewey", "peirce", "rorty"],
+  "quotes": [
+    { "text": "Truth happens to an idea.", "author": "William James" },
+    { "text": "We do not learn from experience. We learn from reflecting on experience.", "author": "John Dewey" },
+    { "text": "Act as if what you do makes a difference. It does.", "author": "William James" },
+    { "text": "A philosophy can usefully be regarded as a tool.", "author": "Richard Rorty" }
+  ],
+  "modern_echoes": [
+    "design thinking and lean methodologies",
+    "experimental psychology and evidence-based practice",
+    "iterative product development"
+  ]
+}

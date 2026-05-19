@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(npx tsx *)",
+      "Bash(npx next *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Experiment\\\\Philosopy Compass\" -Recurse -Directory)",
+      "Bash(Select-Object FullName)",
+      "Bash(findstr /S /C:\"onClick\\\\|onNodeClick\\\\|onNode\\\\|onBackground\\\\|onHover\" components/ lib/ app/)",
+      "Bash(powershell -Command ' *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

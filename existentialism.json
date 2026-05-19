@@ -1,0 +1,39 @@
+{
+  "id": "existentialism",
+  "name": "Existentialism",
+  "tagline": "Existence precedes essence. You are what you choose.",
+  "summary": "Existentialism holds that there is no fixed human nature handed to us in advance. We are radically free, and that freedom comes with the weight of full responsibility for the self we create through our choices.",
+  "era": "19th–20th century Europe",
+  "color": "#E08948",
+  "themes": ["freedom", "authenticity", "choice", "responsibility", "anxiety"],
+  "dimensions": {
+    "meaning": "created",
+    "emotion": "expressed",
+    "morality": "subjective",
+    "self": "constructed",
+    "suffering": "meaningful"
+  },
+  "problems_helped": [
+    "lack_of_meaning",
+    "identity_crisis",
+    "existential_dread",
+    "fear_of_death",
+    "social_alienation",
+    "emotional_suffering"
+  ],
+  "compatible_with": ["absurdism", "pragmatism"],
+  "opposes": ["nihilism", "utilitarianism"],
+  "influenced_by": ["stoicism", "nihilism"],
+  "philosophers": ["sartre", "kierkegaard", "heidegger", "simone_de_beauvoir"],
+  "quotes": [
+    { "text": "Man is condemned to be free.", "author": "Jean-Paul Sartre" },
+    { "text": "Existence precedes essence.", "author": "Jean-Paul Sartre" },
+    { "text": "Life must be lived forward, understood backward.", "author": "Søren Kierkegaard" },
+    { "text": "One is not born, but rather becomes, a woman.", "author": "Simone de Beauvoir" }
+  ],
+  "modern_echoes": [
+    "humanistic and gestalt psychotherapy",
+    "self-authorship discourse",
+    "career and identity reinvention culture"
+  ]
+}

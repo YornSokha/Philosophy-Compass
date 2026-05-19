@@ -1,0 +1,37 @@
+{
+  "id": "utilitarianism",
+  "name": "Utilitarianism",
+  "tagline": "The right act is whichever produces the most well-being.",
+  "summary": "Utilitarianism judges actions by consequences: the morally best choice is the one that maximizes aggregate well-being and minimizes suffering. It demands we take seriously the experiences of every being our choices touch.",
+  "era": "18th–19th century, ongoing",
+  "color": "#5DA5AD",
+  "themes": ["consequences", "well-being", "impartiality", "calculation", "altruism"],
+  "dimensions": {
+    "meaning": "created",
+    "emotion": "controlled",
+    "morality": "utility",
+    "self": "fixed",
+    "suffering": "avoidable"
+  },
+  "problems_helped": [
+    "lack_of_meaning",
+    "social_alienation",
+    "burnout",
+    "anxiety"
+  ],
+  "compatible_with": ["pragmatism"],
+  "opposes": ["stoicism", "buddhism", "existentialism", "virtue_ethics"],
+  "influenced_by": ["epicureanism"],
+  "philosophers": ["bentham", "mill", "singer"],
+  "quotes": [
+    { "text": "It is better to be a human dissatisfied than a pig satisfied.", "author": "John Stuart Mill" },
+    { "text": "The greatest happiness of the greatest number.", "author": "Jeremy Bentham" },
+    { "text": "The question is not, Can they reason? but, Can they suffer?", "author": "Jeremy Bentham" },
+    { "text": "If we can prevent suffering, without sacrificing comparable good, we ought to.", "author": "Peter Singer" }
+  ],
+  "modern_echoes": [
+    "effective altruism",
+    "policy cost-benefit analysis",
+    "animal welfare and longtermism debates"
+  ]
+}
