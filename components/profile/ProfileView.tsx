@@ -52,7 +52,7 @@ export default function ProfileView({ philosophies }: Props) {
       : "";
 
   return (
-    <div className="min-h-screen pt-24 pb-16 px-6">
+    <div className="min-h-screen pt-20 sm:pt-24 pb-16 px-6">
       <div className="max-w-2xl mx-auto flex flex-col gap-10">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -63,7 +63,7 @@ export default function ProfileView({ philosophies }: Props) {
           <p className="text-xs text-[var(--text-faint)] uppercase tracking-widest mb-3">
             Your philosophical blend
           </p>
-          <h1 className="font-serif text-4xl text-[var(--text)]">
+          <h1 className="font-serif text-2xl sm:text-4xl text-[var(--text)]">
             {topPhils.map((p) => p.name).join(" · ")}
           </h1>
           <p className="text-[var(--text-muted)] mt-3 text-sm">

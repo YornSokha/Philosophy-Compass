@@ -220,7 +220,12 @@ export default function ConstellationGraph({
           d3VelocityDecay={0.25}
           enableZoomInteraction={!mini}
           enablePanInteraction={!mini}
-          nodeRelSize={1}
+          nodePointerAreaPaint={(node: any, color: string, ctx: CanvasRenderingContext2D) => {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, (node.val ?? 3) * 4, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+          }}
         />
       </div>
 

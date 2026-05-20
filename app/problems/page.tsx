@@ -8,7 +8,7 @@ export default function ProblemsPage() {
     <main className="min-h-screen pt-24 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-10">
-          <h1 className="font-serif text-4xl text-[var(--text)]">Problems</h1>
+          <h1 className="font-serif text-3xl sm:text-4xl text-[var(--text)]">Problems</h1>
           <p className="text-[var(--text-muted)] mt-2 text-sm max-w-md">
             Start here if you have a specific struggle. Each problem maps to the philosophies
             that address it — and explains exactly how.

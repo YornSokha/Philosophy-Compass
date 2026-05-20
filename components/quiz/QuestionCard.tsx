@@ -18,7 +18,7 @@ export default function QuestionCard({ question, selected, onSelect }: Props) {
       transition={{ duration: 0.35, ease: "easeOut" }}
       className="w-full max-w-xl mx-auto flex flex-col gap-6"
     >
-      <h2 className="font-serif text-3xl leading-snug text-[var(--text)] text-balance">
+      <h2 className="font-serif text-2xl sm:text-3xl leading-snug text-[var(--text)] text-balance">
         {question.prompt}
       </h2>
 

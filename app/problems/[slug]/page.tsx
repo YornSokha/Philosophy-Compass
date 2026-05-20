@@ -23,7 +23,7 @@ export default async function ProblemPage({ params }: { params: Promise<{ slug: 
           >
             ← All problems
           </Link>
-          <h1 className="font-serif text-4xl text-[var(--text)]">{problem.name}</h1>
+          <h1 className="font-serif text-3xl sm:text-4xl text-[var(--text)]">{problem.name}</h1>
           <p className="text-[var(--text-muted)] mt-2 text-base leading-relaxed">
             {problem.description}
           </p>

@@ -1,12 +1,12 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
 import type { QuizQuestion, Philosophy } from "@/lib/types";
 import { useQuizStore, useProfileStore } from "@/lib/store";
 import { computeBlend, computeTensions, encodeProfile } from "@/lib/scoring";
 import QuestionCard from "./QuestionCard";
-import ProgressDots from "./ProgressDots";
+import ProgressBar from "./ProgressBar";
 
 interface Props {
   questions: QuizQuestion[];
@@ -19,37 +19,46 @@ export default function QuizFlow({ questions, philosophies }: Props) {
   const [pendingAnswer, setPendingAnswer] = useState<number | null>(null);
   const { answers, setAnswer, reset } = useQuizStore();
   const { setProfile } = useProfileStore();
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const question = questions[currentIndex];
   const isLast = currentIndex === questions.length - 1;
 
+  useEffect(() => {
+    return () => { if (timer.current) clearTimeout(timer.current); };
+  }, []);
+
   const handleSelect = useCallback(
     (optionIndex: number) => {
+      if (timer.current) { clearTimeout(timer.current); timer.current = null; }
       setPendingAnswer(optionIndex);
+
+      if (!isLast) {
+        timer.current = setTimeout(() => {
+          setAnswer(question.id, optionIndex);
+          setCurrentIndex((i) => i + 1);
+          setPendingAnswer(null);
+          timer.current = null;
+        }, 350);
+      }
     },
-    []
+    [isLast, question, setAnswer]
   );
 
   const handleNext = useCallback(() => {
     if (pendingAnswer == null || !question) return;
     setAnswer(question.id, pendingAnswer);
     const newAnswers = { ...answers, [question.id]: pendingAnswer };
-
-    if (isLast) {
-      const partial = computeBlend(questions, newAnswers);
-      const tensions = computeTensions(partial.top, philosophies);
-      const profile = { ...partial, tensions };
-      setProfile(profile);
-      reset();
-      const encoded = encodeProfile(profile);
-      router.push(`/profile?blend=${encoded}`);
-    } else {
-      setCurrentIndex((i) => i + 1);
-      setPendingAnswer(null);
-    }
-  }, [pendingAnswer, question, answers, isLast, questions, philosophies, setAnswer, setProfile, reset, router]);
+    const partial = computeBlend(questions, newAnswers);
+    const tensions = computeTensions(partial.top, philosophies);
+    const profile = { ...partial, tensions };
+    setProfile(profile);
+    reset();
+    router.push(`/profile?blend=${encodeProfile(profile)}`);
+  }, [pendingAnswer, question, answers, questions, philosophies, setAnswer, setProfile, reset, router]);
 
   const handleBack = () => {
+    if (timer.current) { clearTimeout(timer.current); timer.current = null; }
     if (currentIndex === 0) return;
     setCurrentIndex((i) => i - 1);
     setPendingAnswer(answers[questions[currentIndex - 1]?.id ?? ""] ?? null);
@@ -58,20 +67,22 @@ export default function QuizFlow({ questions, philosophies }: Props) {
   if (!question) return null;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-24">
-      <div className="w-full max-w-xl mb-10 flex items-center justify-between">
-        <button
-          onClick={handleBack}
-          className={`text-sm text-[var(--text-faint)] hover:text-[var(--text-muted)] transition-colors ${
-            currentIndex === 0 ? "invisible" : ""
-          }`}
-        >
-          ← Back
-        </button>
-        <ProgressDots total={questions.length} current={currentIndex} />
-        <span className="text-xs text-[var(--text-faint)]">
-          {currentIndex + 1} / {questions.length}
-        </span>
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-16 md:py-24">
+      <div className="w-full max-w-xl mb-8 flex flex-col gap-4">
+        <ProgressBar current={currentIndex} total={questions.length} />
+        <div className="flex items-center justify-between">
+          <button
+            onClick={handleBack}
+            className={`text-sm text-[var(--text-faint)] hover:text-[var(--text-muted)] transition-colors ${
+              currentIndex === 0 ? "invisible" : ""
+            }`}
+          >
+            ← Back
+          </button>
+          <span className="text-xs text-[var(--text-faint)]">
+            {currentIndex + 1} / {questions.length}
+          </span>
+        </div>
       </div>
 
       <div className="w-full max-w-xl">
@@ -85,19 +96,21 @@ export default function QuizFlow({ questions, philosophies }: Props) {
         </AnimatePresence>
       </div>
 
-      <div className="mt-8 w-full max-w-xl flex justify-end">
-        <button
-          onClick={handleNext}
-          disabled={pendingAnswer == null}
-          className={`px-8 py-3 rounded-full text-sm transition-all ${
-            pendingAnswer != null
-              ? "bg-[var(--text)] text-[var(--bg)] hover:opacity-90"
-              : "bg-[var(--surface-2)] text-[var(--text-faint)] cursor-not-allowed"
-          }`}
-        >
-          {isLast ? "See my blend →" : "Next →"}
-        </button>
-      </div>
+      {isLast && (
+        <div className="mt-8 w-full max-w-xl flex justify-end">
+          <button
+            onClick={handleNext}
+            disabled={pendingAnswer == null}
+            className={`px-8 py-3 rounded-full text-sm transition-all ${
+              pendingAnswer != null
+                ? "bg-[var(--text)] text-[var(--bg)] hover:opacity-90"
+                : "bg-[var(--surface-2)] text-[var(--text-faint)] cursor-not-allowed"
+            }`}
+          >
+            See my blend →
+          </button>
+        </div>
+      )}
     </div>
   );
 }

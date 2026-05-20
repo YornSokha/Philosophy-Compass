@@ -37,12 +37,12 @@ export default async function PhilosophyPage({ params }: { params: Promise<{ slu
             style={{ background: phil.color, boxShadow: `0 0 16px ${phil.color}66` }}
           />
           <h1
-            className="font-serif text-5xl leading-tight"
+            className="font-serif text-3xl sm:text-5xl leading-tight"
             style={{ color: phil.color }}
           >
             {phil.name}
           </h1>
-          <p className="font-serif italic text-xl text-[var(--text-muted)] mt-2">
+          <p className="font-serif italic text-base sm:text-xl text-[var(--text-muted)] mt-2">
             {phil.tagline}
           </p>
           <p className="text-xs text-[var(--text-faint)] mt-3">{phil.era}</p>
@@ -64,7 +64,7 @@ export default async function PhilosophyPage({ params }: { params: Promise<{ slu
             <p className="text-xs text-[var(--text-faint)] uppercase tracking-wider mb-3">
               Dimensions
             </p>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {Object.entries(phil.dimensions).map(([axis, val]) => (
                 <div
                   key={axis}
@@ -89,7 +89,7 @@ export default async function PhilosophyPage({ params }: { params: Promise<{ slu
                 className="border-l-2 pl-4"
                 style={{ borderColor: phil.color + "66" }}
               >
-                <p className="font-serif italic text-lg text-[var(--text)] leading-relaxed">
+                <p className="font-serif italic text-base sm:text-lg text-[var(--text)] leading-relaxed">
                   &ldquo;{q.text}&rdquo;
                 </p>
                 <cite className="text-sm text-[var(--text-faint)] mt-1.5 block not-italic">
@@ -100,7 +100,7 @@ export default async function PhilosophyPage({ params }: { params: Promise<{ slu
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {phil.compatible_with.length > 0 && (
             <div>
               <p className="text-xs text-[var(--text-faint)] uppercase tracking-wider mb-3">

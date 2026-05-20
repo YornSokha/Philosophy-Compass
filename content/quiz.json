@@ -23,29 +23,6 @@
     ]
   },
   {
-    "id": "q_suffering_02",
-    "axis": "suffering",
-    "prompt": "Is suffering meaningful?",
-    "options": [
-      {
-        "label": "Yes — it reveals what genuinely matters.",
-        "weights": { "stoicism": 0.7, "existentialism": 0.6 }
-      },
-      {
-        "label": "No, but its causes can be understood and reduced.",
-        "weights": { "epicureanism": 0.7, "utilitarianism": 0.7, "pragmatism": 0.4 }
-      },
-      {
-        "label": "Yes — it is the door to liberation.",
-        "weights": { "buddhism": 0.9 }
-      },
-      {
-        "label": "It is neither meaningful nor escapable. Live anyway.",
-        "weights": { "absurdism": 0.8, "nihilism": 0.5, "cynicism": 0.3 }
-      }
-    ]
-  },
-  {
     "id": "q_suffering_03",
     "axis": "suffering",
     "prompt": "When something bad happens, your first move is to…",
@@ -88,29 +65,6 @@
       {
         "label": "From useful action and shared human experience.",
         "weights": { "pragmatism": 0.8, "utilitarianism": 0.6 }
-      }
-    ]
-  },
-  {
-    "id": "q_meaning_02",
-    "axis": "meaning",
-    "prompt": "Life has…",
-    "options": [
-      {
-        "label": "A purpose I must discover.",
-        "weights": { "stoicism": 0.5, "taoism": 0.5, "buddhism": 0.3 }
-      },
-      {
-        "label": "Whatever purpose I give it.",
-        "weights": { "existentialism": 0.9, "pragmatism": 0.4 }
-      },
-      {
-        "label": "No purpose — and the honesty of that is freeing.",
-        "weights": { "nihilism": 0.8, "absurdism": 0.6 }
-      },
-      {
-        "label": "Purpose found in reducing suffering for all beings.",
-        "weights": { "buddhism": 0.7, "utilitarianism": 0.7 }
       }
     ]
   },
@@ -184,29 +138,6 @@
     ]
   },
   {
-    "id": "q_emotion_03",
-    "axis": "emotion",
-    "prompt": "Pleasure is…",
-    "options": [
-      {
-        "label": "Fine in moderation, but not the point.",
-        "weights": { "stoicism": 0.7, "buddhism": 0.4 }
-      },
-      {
-        "label": "The natural goal of life, taken wisely.",
-        "weights": { "epicureanism": 0.9 }
-      },
-      {
-        "label": "Worth pursuing when it benefits the most people.",
-        "weights": { "utilitarianism": 0.8 }
-      },
-      {
-        "label": "A distraction from seeing clearly.",
-        "weights": { "buddhism": 0.6, "cynicism": 0.8 }
-      }
-    ]
-  },
-  {
     "id": "q_morality_01",
     "axis": "morality",
     "prompt": "Right action is…",
@@ -253,29 +184,6 @@
     ]
   },
   {
-    "id": "q_morality_03",
-    "axis": "morality",
-    "prompt": "Social conventions are…",
-    "options": [
-      {
-        "label": "Often useful, sometimes wise.",
-        "weights": { "pragmatism": 0.6, "stoicism": 0.4 }
-      },
-      {
-        "label": "Mostly arbitrary — better to live by nature.",
-        "weights": { "cynicism": 0.9, "taoism": 0.5 }
-      },
-      {
-        "label": "A starting point we may need to transcend.",
-        "weights": { "buddhism": 0.5, "existentialism": 0.6 }
-      },
-      {
-        "label": "Tools — judged by outcomes.",
-        "weights": { "utilitarianism": 0.7, "pragmatism": 0.4 }
-      }
-    ]
-  },
-  {
     "id": "q_self_01",
     "axis": "self",
     "prompt": "The self is…",
@@ -295,29 +203,6 @@
       {
         "label": "A bundle of habits responding to what works.",
         "weights": { "pragmatism": 0.7 }
-      }
-    ]
-  },
-  {
-    "id": "q_self_02",
-    "axis": "self",
-    "prompt": "Who you are is…",
-    "options": [
-      {
-        "label": "What you do, repeatedly.",
-        "weights": { "stoicism": 0.6, "pragmatism": 0.6, "cynicism": 0.4, "virtue_ethics": 0.7, "confucianism": 0.5 }
-      },
-      {
-        "label": "What you choose, with full responsibility.",
-        "weights": { "existentialism": 0.9 }
-      },
-      {
-        "label": "Whatever arises and passes.",
-        "weights": { "buddhism": 0.7, "taoism": 0.6 }
-      },
-      {
-        "label": "A story worth holding loosely.",
-        "weights": { "nihilism": 0.5, "absurdism": 0.5, "buddhism": 0.3 }
       }
     ]
   },

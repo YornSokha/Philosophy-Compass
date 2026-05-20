@@ -42,7 +42,7 @@ export default async function PhilosopherPage({ params }: { params: Promise<{ sl
               ) : null
             )}
           </div>
-          <h1 className="font-serif text-5xl text-[var(--text)]">{philosopher.name}</h1>
+          <h1 className="font-serif text-3xl sm:text-5xl text-[var(--text)]">{philosopher.name}</h1>
           <p className="text-[var(--text-faint)] mt-1 text-sm">{philosopher.years}</p>
         </div>
 
@@ -112,7 +112,7 @@ export default async function PhilosopherPage({ params }: { params: Promise<{ sl
                   className="border-l-2 pl-4"
                   style={{ borderColor: (schools[0]?.color ?? "#888") + "66" }}
                 >
-                  <p className="font-serif italic text-lg text-[var(--text)] leading-relaxed">
+                  <p className="font-serif italic text-base sm:text-lg text-[var(--text)] leading-relaxed">
                     &ldquo;{q.text}&rdquo;
                   </p>
                 </blockquote>
